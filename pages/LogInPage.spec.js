@@ -18,7 +18,6 @@ export class LogInPage{
     }
 
     async verifyUserCred(userName, userPass){
-        //await this.page.pause()
         await this.page.fill(this.userNameInputField,userName);
         await this.page.fill(this.passInputField,userPass);
         await this.page.click(this.loginButton);
