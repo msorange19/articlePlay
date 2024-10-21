@@ -25,6 +25,7 @@ describe('Article Tests', () => {
 
     test('Verify Create New Article Button on Navbar', async ({articleCreate}) => {
         await articleCreate.createArticleBTNVerify();
+        await articleCreate.createArticleData(testData.title,testData.description, testData.body,testData.tags)
 
     });
 
