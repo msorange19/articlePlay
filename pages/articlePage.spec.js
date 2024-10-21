@@ -17,25 +17,18 @@ export class ArticlePage {
     }
 
     async createArticleBTNVerify() {
-        await this.page.pause()
         await this.page.click(this.createArticleBTN);
     }
 
     async createArticleData(title, description, body, tags) {
         await this.page.waitForLoadState('networkidle');
-        await this.page.pause();
         await this.page.click(this.title);
-
         await this.page.fill(this.title, title);
         await this.page.click(this.description);
-
         await this.page.fill(this.description, description);
-
         await this.page.click(this.body);
         await this.page.fill(this.body, body);
-
         await this.page.click(this.tags);
-
         await this.page.fill(this.tags, tags);
         await this.page.click(this.publishBtn)
     }
