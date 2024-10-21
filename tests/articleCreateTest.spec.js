@@ -19,9 +19,7 @@ describe('Article Tests', () => {
         }
     });
 
-    test.afterAll(async () => {
-        await context.close();
-    });
+
 
     test('Verify Create New Article Button on Navbar', async ({articleCreate}) => {
         await articleCreate.createArticleBTNVerify();
