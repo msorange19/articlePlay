@@ -9,8 +9,8 @@ export const test = base.extend({
 
     articleCreate : async ({ page }, use) =>{
 
-        const articlePage = new ArticlePage(page);
-        await articlePage.navigateArticle('https://conduit.bondaracademy.com');
-        await use(articlePage);
+        const articleRelPage = new ArticlePage(page);
+        await articleRelPage.navigateArticle('https://conduit.bondaracademy.com');
+        await use(articleRelPage);
     }
 })
