@@ -1,0 +1,11 @@
+{
+  "email" : "testuser350@mail.com",
+  "password" : "password123",
+  "log_url" : "https://conduit.bondaracademy.com/login",
+  "base_url" : "https://conduit.bondaracademy.com",
+  "title" : "test 1",
+  "description": "hello tester",
+  "body": "I am doing automation testing",
+  "tags": "test"
+
+}
