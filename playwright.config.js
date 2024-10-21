@@ -37,12 +37,12 @@ module.exports = defineConfig({
   /* Configure projects for major browsers */
   projects: [
     {
-      name: 'Setup (login)',
-      testMatch: /.*logInTest\.spec\.js/, // Only run the login test in this project
+      name: 'Auth Setup (login)',
+      testMatch: /.*logInTest\.spec\.js/,
     },
     {
       name: 'Article Tests',
-      testMatch: /.*articleCreateTest\.spec\.js/, // All other tests
+      testMatch: /.*articleCreateTest\.spec\.js/,
       use: {
         storageState: 'state.json',  // Reuse the session from state.json
       },
