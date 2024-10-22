@@ -28,8 +28,12 @@ export class ArticlePage {
         await this.page.fill(this.description, description);
         await this.page.click(this.body);
         await this.page.fill(this.body, body);
-        await this.page.click(this.tags);
-        await this.page.fill(this.tags, tags);
+        for (let tag of tags) {
+            await this.page.click(this.tags);
+            await this.page.fill(this.tags, tag);
+            await this.page.keyboard.press('Enter')
+        }
+
         await this.page.click(this.publishBtn)
     }
 }

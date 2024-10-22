@@ -6,6 +6,6 @@
   "title" : "test 1",
   "description": "hello tester",
   "body": "I am doing automation testing",
-  "tags": "test"
+  "tags": ["test","art1","art2"]
 
 }
