@@ -1,0 +1,8 @@
+TAP version 13
+# Subtest: Article Tests
+ok 1 - Article Tests
+  ---
+  duration_ms: 2.4896
+  type: 'suite'
+  ...
+tapped

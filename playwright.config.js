@@ -37,29 +37,27 @@ module.exports = defineConfig({
   /* Configure projects for major browsers */
   projects: [
     {
-      name: 'Auth Setup (login)',
+      name: 'Auth',
       testMatch: /.*logInTest\.spec\.js/,
+      use: {
+        storageState: undefined,
+      }
     },
     {
       name: 'Article Tests',
       testMatch: /.*articleCreateTest\.spec\.js/,
       use: {
-        storageState: 'state.json',  // Reuse the session from state.json
+        storageState: 'state.json',
       },
-    },
-    {
-      name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
-    },
-
-    {
-      name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
-    },
-
-    {
-      name: 'webkit',
-      use: { ...devices['Desktop Safari'] },
+     dependencies: ['Auth']
+    },{
+      name: 'Microsoft Edge',
+      testMatch: /.*articleCreateTest\.spec\.js/,
+      use: {
+        ...devices['Desktop Edge'],
+         storageState: 'state.json', // Use the same storage state for Edge.
+      },
+   //   dependencies: ['Auth'], // Ensure this runs after the Login Test.
     },
 
     /* Test against mobile viewports. */

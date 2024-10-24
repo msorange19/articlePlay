@@ -6,26 +6,15 @@ const fs = require('fs');
 import {test} from "../fixtures/initialize.js";
 
 describe('Article Tests', () => {
-    let context = '';
+    test.beforeEach(async ({articleCreate})=>{
+        await articleCreate.navigateArticle(testData.base_url);
+    })
 
-    test.beforeAll(async () => {
-        const browser = await chromium.launch();
-
-        if (fs.existsSync('state.json')) {
-            context = await browser.newContext({storageState: 'state.json'});
-
-        } else {
-            console.log('token is missing');
-        }
-    });
-
-
-
-    test('Verify Create New Article Button on Navbar', async ({articleCreate}) => {
+    test('Verify Create New Article ', async ({articleCreate}) => {
         await articleCreate.createArticleBTNVerify();
         await articleCreate.createArticleData(testData.title + Date.now(),testData.description, testData.body,testData.tags)
-
-    });
+console.log('tapped')
+    })
 
 
 });

@@ -1,0 +1,6 @@
+# Subtest: signup Test
+ok 2 - signup Test
+  ---
+  duration_ms: 0.9915
+  type: 'suite'
+  ...

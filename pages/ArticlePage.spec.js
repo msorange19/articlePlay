@@ -2,7 +2,7 @@ export class ArticlePage {
     constructor(page) {
         this.page = page;
         this.createArticleBTN = '//app-layout-header/nav[1]/div[1]/ul[1]/li[2]/a[1]';
-        this.title = 'input[placeholder ="Article Title"]';
+        this.title = '//form/fieldset/fieldset[1]/input';
         this.description = 'input[formcontrolname ="description"]';
         this.body = '//form/fieldset/fieldset[3]/textarea';
         this.tags = 'input[placeholder="Enter tags"]';
@@ -17,11 +17,14 @@ export class ArticlePage {
     }
 
     async createArticleBTNVerify() {
+        await this.page.pause();
+
         await this.page.click(this.createArticleBTN);
     }
 
     async createArticleData(title, description, body, tags) {
-        await this.page.waitForLoadState('networkidle');
+        await this.page.waitForLoadState('load');
+        await this.page.pause();
         await this.page.click(this.title);
         await this.page.fill(this.title, title);
         await this.page.click(this.description);
