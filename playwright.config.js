@@ -55,9 +55,9 @@ module.exports = defineConfig({
       testMatch: /.*articleCreateTest\.spec\.js/,
       use: {
         ...devices['Desktop Edge'],
-         storageState: 'state.json', // Use the same storage state for Edge.
+         storageState: 'state.json',
       },
-   //   dependencies: ['Auth'], // Ensure this runs after the Login Test.
+    dependencies: ['Auth'],
     },
 
     /* Test against mobile viewports. */

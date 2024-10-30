@@ -17,7 +17,6 @@ export class ArticlePage {
     }
 
     async createArticleBTNVerify() {
-        await this.page.pause();
 
         await this.page.click(this.createArticleBTN);
     }
@@ -38,5 +37,9 @@ export class ArticlePage {
         }
 
         await this.page.click(this.publishBtn)
+    }
+
+    async getBody() {
+        return await this.page.locator(this.body).inputValue();
     }
 }
