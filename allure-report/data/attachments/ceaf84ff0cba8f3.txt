@@ -1,0 +1,7 @@
+TAP version 13
+# Subtest: signup Test
+ok 1 - signup Test
+  ---
+  duration_ms: 2.8407
+  type: 'suite'
+  ...

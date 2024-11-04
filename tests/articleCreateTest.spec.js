@@ -13,10 +13,8 @@ describe('Article Tests', () => {
     test('Verify Create New Article ', async ({articleCreate}) => {
         await articleCreate.createArticleBTNVerify();
         await articleCreate.createArticleData(testData.title + Date.now(),testData.description, testData.body,testData.tags)
-        const testBody = await articleCreate.getBody();
-        console.log(testBody + "result")
-
-        expect(testBody).toBe(testData.body);
+        const articleBodyText = await articleCreate.getBody();
+        expect(articleBodyText).toBe(testData.body);
     })
 
 
