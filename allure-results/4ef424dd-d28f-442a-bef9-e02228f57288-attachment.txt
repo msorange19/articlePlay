@@ -1,0 +1,32 @@
+--- Request Details ---
+Method: POST
+URL: https://conduit-api.bondaracademy.com/api/articles/
+Headers: {
+  accept: 'application/json, text/plain, */*',
+  authorization: 'Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxMjI4M30sImlhdCI6MTczMzAyOTc4OCwiZXhwIjoxNzM4MjEzNzg4fQ.__wOLhriHdjdeDNQQU5i5xRvFUArEt40RcW_AMBaqQ8',
+  'content-type': 'application/json',
+  origin: 'https://conduit.bondaracademy.com'
+}
+Post Data: {
+  "article": {
+    "title": "sjknkxsosoksokskoksooksokokslkss",
+    "description": "cccc",
+    "body": "cccc",
+    "tagList": [
+      "c"
+    ]
+  }
+}
+-----------------------
+Response Status: 404
+Response Body: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /articles/</pre>
+</body>
+</html>
+

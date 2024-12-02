@@ -1,0 +1,32 @@
+Request URL: https://conduit.bondaracademy.com/api/articles/
+Request Headers: {
+  accept: 'application/json, text/plain, */*',
+  'accept-language': 'en-US,en;q=0.9,bn;q=0.8',
+  authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxMjI4M30sImlhdCI6MTczMTI5NDU3OCwiZXhwIjoxNzM2NDc4NTc4fQ.m0glQjP-4JAxtBa_gEXJ_k17qIXektSamW9TmrjDWjQ',
+  'content-type': 'application/json',
+  origin: 'https://conduit.bondaracademy.com',
+  referer: 'https://conduit.bondaracademy.com/',
+  'sec-ch-ua': '"Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"',
+  'sec-ch-ua-mobile': '?0',
+  'sec-ch-ua-platform': '"Windows"',
+  'sec-fetch-dest': 'empty',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-site': 'same-site',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'
+}
+Request Body: {
+  article: {
+    title: 'Test Article red',
+    description: 'This is a test description',
+    body: 'This is the body of the test article',
+    tagList: [ 'test' ]
+  }
+}
+Response Status: 405
+Response Headers: {
+  'content-type': 'text/html',
+  'x-cloud-trace-context': 'eb57af48000c0de13ab48a2c3b49459b;o=1',
+  date: 'Mon, 11 Nov 2024 03:09:40 GMT',
+  server: 'Google Frontend',
+  'content-length': '559'
+}

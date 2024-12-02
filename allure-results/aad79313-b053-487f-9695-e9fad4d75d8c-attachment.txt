@@ -1,0 +1,21 @@
+JWT Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxMjI4M30sImlhdCI6MTczMTI5MzgwMywiZXhwIjoxNzM2NDc3ODAzfQ.V7ClIB1TB1zJhbJ6elft5q5cVYAzlePuUl55tO3fB3o
+Request URL: https://conduit.bondaracademy.com/api/articles/
+Request Headers: {
+  'Content-Type': 'application/json',
+  Accept: 'application/json',
+  Authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxMjI4M30sImlhdCI6MTczMTI5MzgwMywiZXhwIjoxNzM2NDc3ODAzfQ.V7ClIB1TB1zJhbJ6elft5q5cVYAzlePuUl55tO3fB3o'
+}
+Request Body: {
+  title: 'Test Article',
+  description: 'This is a test description',
+  body: 'This is the body of the test article',
+  tagList: [ 'test' ]
+}
+Status Code: 405
+Headers: {
+  'content-type': 'text/html',
+  'x-cloud-trace-context': 'e60c6f4c75c7372cdc7508241800f65d',
+  date: 'Mon, 11 Nov 2024 02:56:46 GMT',
+  server: 'Google Frontend',
+  'content-length': '157'
+}

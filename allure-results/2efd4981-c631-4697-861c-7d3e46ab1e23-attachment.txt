@@ -1,0 +1,2 @@
+Response Status: 201
+Response Body: {"article":{"slug":"csuiiiiikjkkcc-12283","title":"csuiiiiikjkkcc","description":"cccc","body":"cccc","tagList":["c"],"createdAt":"2024-12-02T05:07:23.930Z","updatedAt":"2024-12-02T05:07:23.930Z","favorited":false,"favoritesCount":0,"author":{"username":"testuser350","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}}}

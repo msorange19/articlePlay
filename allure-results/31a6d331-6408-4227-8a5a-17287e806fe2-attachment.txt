@@ -1,0 +1,16 @@
+TAP version 13
+# Subtest: signup Test
+ok 1 - signup Test
+  ---
+  duration_ms: 1.459
+  type: 'suite'
+  ...
+{
+  cookies: [],
+  origins: [
+    {
+      origin: 'https://conduit.bondaracademy.com',
+      localStorage: [Array]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+TAP version 13
+# Subtest: Article Tests
+ok 1 - Article Tests
+  ---
+  duration_ms: 2.3944
+  type: 'suite'
+  ...
+Parsed State: {
+  cookies: [],
+  origins: [
+    {
+      origin: 'https://conduit.bondaracademy.com',
+      localStorage: [Array]
+    }
+  ]
+}
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxMjI4M30sImlhdCI6MTczMDc0NDg2NiwiZXhwIjoxNzM1OTI4ODY2fQ.A_Fvt3WuS74vnq-_U-UpMoXgxfVUJjOv2ECpZkfgcukdata
+APIUtils {
+  baseURL: 'https://conduit.bondaracademy.com',
+  authToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxMjI4M30sImlhdCI6MTczMDc0NDg2NiwiZXhwIjoxNzM1OTI4ODY2fQ.A_Fvt3WuS74vnq-_U-UpMoXgxfVUJjOv2ECpZkfgcuk'
+}

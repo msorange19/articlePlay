@@ -1,0 +1,23 @@
+APIResponse: 404 Not Found
+  x-powered-by: Express
+  access-control-allow-origin: https://conduit.bondaracademy.com
+  vary: Origin
+  content-security-policy: default-src 'none'
+  x-content-type-options: nosniff
+  content-type: text/html; charset=utf-8
+  X-Cloud-Trace-Context: 54fcc5dcd89f68704bc09ab466319bcc;o=1
+  Date: Sun, 01 Dec 2024 05:43:39 GMT
+  Server: Google Frontend
+  Content-Length: 149
+Status: 404
+Response Body: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /articles/</pre>
+</body>
+</html>
+

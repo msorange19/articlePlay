@@ -6,6 +6,7 @@
   "title" : "test 1",
   "description": "hello tester",
   "body": "I am doing automation testing",
-  "tags": ["test","art1","art2"]
+  "tags": ["test","art1","art2"],
+  "api_URL": "https://conduit.bondaracademy.com/api/articles/"
 
 }

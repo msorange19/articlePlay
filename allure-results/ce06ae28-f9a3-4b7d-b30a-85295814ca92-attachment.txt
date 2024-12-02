@@ -1,0 +1,17 @@
+TAP version 13
+# Subtest: Article Tests
+ok 1 - Article Tests
+  ---
+  duration_ms: 2.5583
+  type: 'suite'
+  ...
+Parsed State: {
+  cookies: [],
+  origins: [
+    {
+      origin: 'https://conduit.bondaracademy.com',
+      localStorage: [Array]
+    }
+  ]
+}
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxMjI4M30sImlhdCI6MTczMDc0NDExNiwiZXhwIjoxNzM1OTI4MTE2fQ.JBH5Aic798cpR40lbjs7UgSZR_RU4EQnXtDcEowFszI

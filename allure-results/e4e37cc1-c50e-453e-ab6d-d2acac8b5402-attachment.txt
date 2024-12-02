@@ -1,0 +1,11 @@
+TAP version 13
+# Subtest: Article Tests
+ok 1 - Article Tests
+  ---
+  duration_ms: 2.1119
+  type: 'suite'
+  ...
+APIUtils {
+  baseURL: 'https://conduit.bondaracademy.com',
+  authToken: undefined
+}

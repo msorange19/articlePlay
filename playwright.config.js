@@ -12,6 +12,7 @@ const { defineConfig, devices } = require('@playwright/test');
  */
 module.exports = defineConfig({
   testDir: './tests',
+ // testMatch: '*.spec.js',
   /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
@@ -50,7 +51,19 @@ module.exports = defineConfig({
         storageState: 'state.json',
       },
      dependencies: ['Auth']
-    },{
+    },
+    {
+      name: 'API Tests',
+      testMatch: /.*apiTest\.spec\.js/,
+      use: {
+        storageState: 'state.json',
+      },
+      dependencies: ['Auth']
+    }
+
+
+    ,{
+
       name: 'Microsoft Edge',
       testMatch: /.*articleCreateTest\.spec\.js/,
       use: {

@@ -1,0 +1,119 @@
+TAP version 13
+# Subtest: Article Tests
+ok 1 - Article Tests
+  ---
+  duration_ms: 1.9794
+  type: 'suite'
+  ...
+Parsed State: {
+  cookies: [],
+  origins: [
+    {
+      origin: 'https://conduit.bondaracademy.com',
+      localStorage: [Array]
+    }
+  ]
+}
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxMjI4M30sImlhdCI6MTczMDc0NDcyNCwiZXhwIjoxNzM1OTI4NzI0fQ.boPcdJoHjMAki39lehXa1oEgE-olIHuWAqEbX2J1EL8data
+APIUtils {
+  baseURL: <ref *1> APIRequestContext {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: 0,
+    _pendingHandlers: Map(0) {},
+    _rejectionHandler: undefined,
+    on: [Function: addListener],
+    off: [Function: removeListener],
+    _connection: Connection {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      _objects: [Map],
+      onmessage: [Function (anonymous)],
+      _lastId: 7,
+      _callbacks: Map(0) {},
+      _rootObject: [Root],
+      _closedError: undefined,
+      _isRemote: false,
+      _localUtils: [LocalUtils],
+      _rawBuffers: true,
+      toImpl: [Function (anonymous)],
+      _tracingCount: 0,
+      _instrumentation: {},
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    _parent: Root {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      _pendingHandlers: Map(0) {},
+      _rejectionHandler: undefined,
+      on: [Function: addListener],
+      off: [Function: removeListener],
+      _connection: [Connection],
+      _parent: undefined,
+      _objects: [Map],
+      _type: 'Root',
+      _guid: '',
+      _channel: [EventEmitter],
+      _initializer: {},
+      _logger: undefined,
+      _instrumentation: undefined,
+      _eventToSubscriptionMapping: Map(0) {},
+      _isInternalType: false,
+      _wasCollected: false
+    },
+    _objects: Map(1) { 'tracing@c2344d5f95aa6b4a38e5fab9f93d0761' => [Tracing] },
+    _type: 'APIRequestContext',
+    _guid: 'request-context@894c96da7d916fb8452ebed77c093bd9',
+    _channel: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      _pendingHandlers: Map(0) {},
+      _rejectionHandler: undefined,
+      on: [Function: addListener],
+      off: [Function: removeListener],
+      _object: [Circular *1]
+    },
+    _initializer: { tracing: [EventEmitter] },
+    _logger: undefined,
+    _instrumentation: {},
+    _eventToSubscriptionMapping: Map(0) {},
+    _isInternalType: false,
+    _wasCollected: false,
+    _request: APIRequest {
+      _playwright: [Playwright],
+      _contexts: [Set],
+      _defaultContextOptions: [Object]
+    },
+    _tracing: Tracing {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: 0,
+      _pendingHandlers: Map(0) {},
+      _rejectionHandler: undefined,
+      on: [Function: addListener],
+      off: [Function: removeListener],
+      _connection: [Connection],
+      _parent: [Circular *1],
+      _objects: Map(0) {},
+      _type: 'Tracing',
+      _guid: 'tracing@c2344d5f95aa6b4a38e5fab9f93d0761',
+      _channel: [EventEmitter],
+      _initializer: {},
+      _logger: undefined,
+      _instrumentation: {},
+      _eventToSubscriptionMapping: Map(0) {},
+      _isInternalType: true,
+      _wasCollected: false,
+      _includeSources: false,
+      _tracesDir: 'C:\\Users\\BS01391\\Desktop\\play-article\\test-results\\.playwright-artifacts-1\\traces',
+      _stacksId: undefined,
+      _isTracing: false
+    },
+    _closeReason: undefined
+  },
+  authToken: 'https://conduit.bondaracademy.com'
+}
